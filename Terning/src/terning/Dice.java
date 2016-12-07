@@ -1,7 +1,7 @@
 package terning;
 
 public class Dice {
-	// roll the die and return the value (1-6)
+	// roll the dice and return the value (1-6)
 	public int roll() {
 		float d1=(float)Math.random();     // 0-1
 		float d2=d1*5;                     // 0-5
