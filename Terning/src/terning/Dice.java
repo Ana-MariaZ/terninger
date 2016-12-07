@@ -12,7 +12,8 @@ public class Dice {
 	// roll the dice n times and print the values
 	public void rollMultiple(int n) {
 		for (int i=1; i<n; i++) {
-			System.out.print(roll() + " ");
+			System.out.print("Du har slået" +  roll() + " ");
+			
 		}		
 	}
 }
